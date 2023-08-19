@@ -54,17 +54,10 @@ $(document).ready(() => {
   
   }, 1000);
   //songs accordion
-  $('#song .col-md-6 div h5').click(e => {
-    let x = $(e.target).next().css('display')
-    if (x == 'none') {
-      $('#song .col-md-6 div h5').next().not(this).slideUp(500)
-      $(e.target).next().slideToggle(500)
-      
-    } else {
-      $('#song .col-md-6 div h5').next().slideUp(500)
-      
-      
-    }
+  $('#song .col-md-6 div h5').click(function () {
+    let active = $(this).next();
+    $('.inner').not(active).slideUp(500);
+    $(active).slideToggle(500)
     
   })
   //nav width

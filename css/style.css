@@ -36,7 +36,7 @@ ul{
 .trans{
     transition: all .25s ease-in-out;
 }
-#song .col-md-6 p{
+#song .col-md-6 .inner{
     display: none;
 }
 #btnUp{
@@ -152,7 +152,13 @@ color: var(--light-color);
     opacity: 0;
 }
 @keyframes arrow {
-    0%{margin: 0 0 0 4PX;}
+    12.5%{margin: 0 0 0 1PX;}
+    25%{margin: 0 0 0 2PX;}
+    37.5%{margin: 0 0 0 3PX;}
+    50%{margin: 0 0 0 4PX;}
+    62.5%{margin: 0 0 0 3PX;}
+    75%{margin: 0 0 0 2PX;}
+    87.5%{margin: 0 0 0 1PX;}
     100%{margin: 0 0 0 0;}
 
 }
