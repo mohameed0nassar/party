@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party</title>
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--button to Up-->
+    <button id="btnUp">
+      <i class="fa-solid fa-arrow-alt-circle-up"></i>
+  </button>
+    <!-- the loading page-->
+    <div class="loadingPage">
+      <i class="fa-solid fa-spinner fa-spin fa-4x"></i>
+  </div>
+    <!--navigation Bar-->
+    <nav class="position-fixed top-0 bottom-0 d-flex align-items-center">
+      <i class="fa-solid fa-close position-absolute me-5 mt-2 top-0 end-0 point ms-0 d-mode"></i>
+      <div id="colorBox" class="position-absolute bottom-0 ms-3 mb-5 d-mode">
+        <div id="options" class="">
+          <p class="mb-0">Colors</p>
+          <div class="color-item"></div>
+          <div class="color-item"></div>
+          <div class="color-item"></div>
+          <div class="color-item"></div>
+          <div class="color-item"></div>
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 ms-3 mb-1 d-mode">
+        <p class="mb-0">Mode</p>
+        <i class="mood trans fa-solid fa-sun point"></i>
+        <i class="mood trans fa-solid fa-moon point"></i>
+      </div>
+      <ul class='h-100 d-flex flex-column justify-content-center gap-2 d-mode bg-mode pe-5 m-0  border shadow-sm'>
+        <li class="point">home</li>
+        <li class="point">song</li>
+        <li class="point">time</li>
+        <li class="point">contact</li>
+      </ul>
+      <span class="bg-mode trans point"><i class="fa-solid main fa-arrow-right "></i></span>
+    </nav>
+    <!-- my head-->
+    <header id="home" >
+      <div class="bg-main h-100">
+      </div>
+      <div class="text-center mode position-absolute translate-middle top-50 start-50 ">
+        <h1 class="mb-0" >ُEgyption Party</h1>
+        <span>Let's have Fun</span>
+      </div>
+    </header>
+    <!-- our song-->
+    <section id="song" class="py-5 bg-mode">
+      
+      <div class="container my-5">
+  
+        <div class="row  justify-content-center text-center">
+          <div class="col-md-6">
+            <div class="d-mode">
+              <h5 class="p-2 bg-main point mb-0">Lorem, ipsum.</h5>
+              <p class=" p-1 bg-second  mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi libero facilis accusantium accusamus sequi amet ratione earum placeat vitae consequatur repellendus harum architecto temporibus, quod itaque illum sit dicta!</p>
+            </div>
+            <div class="d-mode">
+              <h5 class="p-2 bg-main point mb-0">Lorem, ipsum.</h5>
+              <p class=" p-1 bg-second  my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi libero facilis accusantium accusamus sequi amet ratione earum placeat vitae consequatur repellendus harum architecto temporibus, quod itaque illum sit dicta!</p>
+            </div>
+            <div class="d-mode">
+              <h5 class="p-2 bg-main point mb-0">Lorem, ipsum.</h5>
+              <p class=" p-1 bg-second  my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi libero facilis accusantium accusamus sequi amet ratione earum placeat vitae consequatur repellendus harum architecto temporibus, quod itaque illum sit dicta!</p>
+            </div>
+            <div class="d-mode">
+              <h5 class="p-2 bg-main point mb-0">Lorem, ipsum.</h5>
+              <p class=" p-1 bg-second  my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi libero facilis accusantium accusamus sequi amet ratione earum placeat vitae consequatur repellendus harum architecto temporibus, quod itaque illum sit dicta!</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- time of party-->
+    <section id="time">
+      <div class="bg-main py-5">
+        <div class="container">
+          <div class="row g-3 ">
+            <div class="col-md-3">
+              <div class=" mode fw-bold fs-3 rounded-3 py-5 text-white text-center">
+                Day : <span></span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class=" mode fw-bold fs-3 rounded-3 py-5 text-white text-center">
+                hour : <span></span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class=" mode fw-bold fs-3 rounded-3 py-5 text-white text-center">
+                min : <span></span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class=" mode fw-bold fs-3 rounded-3 py-5 text-white text-center">
+                sec : <span></span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact Us-->
+    <footer id="contact" class="bg-mode">
+      <div class="container py-5 d-mode">
+        <h2>Join US</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-mode">
+              <h5 class="fw-bolder">Contact Info</h5>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime dolore doloremque sequi sint reiciendis totam harum libero ab assumenda?</p>
+              <p class="text-center "><i class="me-3 main fa-solid fa-location"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, maiores.</p>
+              <p class="text-center "><i class="me-3 main fa-solid fa-message"></i> nassar@gmail.com</p>
+              <p class="text-center "><i class="me-3 main fa-solid fa-phone"></i> 011-255-254-78</p>
+              <div>
+                <i class="fa-brands fa-twitter trans"></i>
+                <i class="fa-brands fa-facebook-f px-2 trans"></i>
+                <i class="fa-brands fa-instagram trans"></i>
+                <i class="fa-brands fa-github trans"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 mt-md-0 d-mode">
+            <input type="text" class="form-control my-2" placeholder="Enter Name">
+            <input type="email" class="form-control my-2" placeholder="Enter Email">
+            <textarea name="message" class="form-control my-2" placeholder="Enter Message"  rows="5" maxlength="100"></textarea>
+            <p class="valid-box"><span class="main valid pe-2 fw-bold">100</span>Character Remaining</p>
+            <button class="bg-main trans send">Send</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
